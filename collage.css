@@ -20,7 +20,17 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px ;
 }
-/* resonsiv media query */
-@media screen and (max-width:576;) {
+
+@media screen and ( max-width:576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
+.layon{
+    grid-template-columns: 1fr;
+}
+/* mediam devices */
+@media screen and (min-width:576) and (max-width:992px){
     
 }
